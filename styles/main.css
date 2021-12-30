@@ -1,0 +1,27 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    color: black;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1200px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 1024px) {
+    
+}
+
+@media only screen and (min-width: 1280px) {
+
+}
