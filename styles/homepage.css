@@ -1,0 +1,57 @@
+.img-wrapper {
+    max-width: 100%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.section-left,
+.section-right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-right {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.link-button {
+    width: 60%;
+    padding: 1rem;
+    color: black;
+    background-color: green;
+    border: 1px solid gray;
+    box-shadow: 2px 2px 2px black;
+    text-align: center;
+    margin: 1rem auto 1rem auto;
+    transition: all 0.2s;
+}
+
+.link-button:hover {
+    background-color: red;
+    color: white;
+}
+
+@media only screen and (min-width: 768px) {
+    .img-wrapper {
+        max-width: 33.3333%;
+    }
+    .section-left {
+        width: 60%;
+    }   
+    .section-right {
+        width: 40%
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+
+}
+
+@media only screen and (min-width: 1280px) {
+
+}
