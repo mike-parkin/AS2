@@ -6,12 +6,56 @@ body {
     color: black;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-weight: 400;
+    margin: 0px;
+}
+
+main {
+    min-height: 80vh;
 }
 
 .container {
     max-width: 1200px;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+footer {
+    background-color: bisque;
+    height: 6rem;
+    font-size: 0.75rem;
+    padding-top: 0.5rem;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.page-heading {
+    max-width: 80%;
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.page-intro {
+    max-width: 90%;
+    margin-bottom: 0.5rem;
+}
+
+.page-intro,
+.page-heading {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media only screen and (min-width: 768px) {
@@ -19,7 +63,21 @@ body {
 }
 
 @media only screen and (min-width: 1024px) {
+    footer {
+        height: 8rem;
+        font-size: 1rem;
+    }
+    .flex-container {
+        flex-direction: row;
+    }
+    .page-heading {
+        max-width: 66%;
+        font-size: 2rem;
+    }
     
+    .page-intro {
+        max-width: 75%;
+    }
 }
 
 @media only screen and (min-width: 1280px) {

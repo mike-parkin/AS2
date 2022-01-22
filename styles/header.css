@@ -1,16 +1,41 @@
 header {
-    background-color: blue;
-    height: 2rem;
+    background-color: aqua;
+    height: 5rem;
+    border-bottom: 1px solid gray;
+}
+
+#navbar {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#navbar div {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.navlink {
+    margin-left: 1rem;
 }
 
 @media only screen and (min-width: 768px) {
-
-}
-
-@media only screen and (min-width: 1024px) {
     header {
         height: 6rem;
     }
+    #navbar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #navbar div {
+        margin-top: 0rem;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+
 }
 
 @media only screen and (min-width: 1280px) {
