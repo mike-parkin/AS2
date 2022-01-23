@@ -26,6 +26,7 @@ img {
     background-color: green;
     border: 1px solid gray;
     box-shadow: 2px 2px 2px black;
+    border-radius: 10px;
     text-align: center;
     margin: 1rem auto 1rem auto;
     transition: all 0.2s;

@@ -23,6 +23,10 @@ a {
     text-decoration: none;
 }
 
+.underlined {
+    text-decoration: underline;
+}
+
 .container {
     max-width: 1200px;
     padding-left: 0.5rem;
@@ -51,6 +55,7 @@ footer {
 .page-heading {
     max-width: 80%;
     margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
     font-size: 1.5rem;
 }
 
@@ -89,7 +94,7 @@ footer {
     
     .page-heading {
         max-width: 66%;
-        font-size: 2rem;
+        font-size: 3rem;
     }
     
     .page-intro {
