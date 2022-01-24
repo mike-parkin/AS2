@@ -15,18 +15,29 @@
 <body>
     <header>
         <nav id="navbar" class="container">
-            <a href="./index.html">HOME</a>
+            <a id="home-link" href="./index.html">
+                <img src="./assets/images/logo.png"/>
+            </a>
             <div id="navmenu">
-                <a class="navlink" href="pages/reservations.html">Reservations</a>
-                <a class="navlink" href="pages/menu.html">Menu</a>
-                <a class="navlink" href="pages/hours.html">Hours</a>
-                <a class="navlink" href="pages/contact.html">Contact</a>
+                <a class="navlink" href="./pages/reservations.html">Reservations</a>
+                <a class="navlink" href="./pages/menu.html">Menu</a>
+                <a class="navlink" href="./pages/hours.html">Hours</a>
+                <a class="navlink" href="./pages/contact.html">Contact</a>
+            </div>
+            <button id="nav-menu-button" class='navlink'>
+                Explore site
+            </button>
+            <div id="phone-menu" class="closed">
+                <a class="navlink phone-link" href="./pages/reservations.html">Reservations</a>
+                <a class="navlink phone-link" href="./pages/menu.html">Menu</a>
+                <a class="navlink phone-link" href="./pages/hours.html">Hours</a>
+                <a class="navlink phone-link" href="./pages/contact.html">Contact</a>
             </div>
         </nav>
     </header>
     <main>
         <div class="container">
-            <div>
+            <div class="title-lockup">
                 <h1 class="page-heading">
                     Haukai Restaurant
                 </h1>
@@ -49,9 +60,9 @@
                     <p class="main-text">Haukai Restaurant specialises in Māori kai and is based in the Bay of Islands. The dinner menu features Māori and Pākeha kai options and drinks. We are a young couple who want all customers, to experience Te Ao Māori with the use of karakia for blessing food and other Māori cultural elements</p>
                 </section>
                 <section class="section-right">
-                    <a class="link-button" href="pages/menu.html">See our Menu</a>
-                    <a class="link-button" href="pages/reservations.html">Book a Table</a>
-                    <a class="link-button" href="pages/contact.html">Get in touch</a>                  
+                    <a class="link-button" href="pages/menu.html">CHECKOUT OUR MENU</a>
+                    <a class="link-button" href="pages/reservations.html">BOOK A TABLE</a>
+                    <a class="link-button" href="pages/contact.html">GET IN TOUCH</a>                  
                 </section>
             </div>
         </div>
@@ -72,5 +83,6 @@
             </div>
         </div>
     </footer>
+    <script src="../scripts/index.js"></script>
 </body>
 </html>

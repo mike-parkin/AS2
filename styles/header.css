@@ -1,32 +1,74 @@
 header {
-    background-color: aqua;
+    background-color: #FFFFFF;
     height: 5rem;
     border-bottom: 1px solid gray;
 }
 
 #navbar {
     height: 100%;
+    position: relative;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
 }
 
-#navbar div {
-    display: flex;
+#navmenu {
+    display: none;
     align-items: center;
     margin-top: 1rem;
 }
 
+#nav-menu-button {
+    background-color: transparent;
+}
+
+#home-link {
+    height: 4rem;
+}
+
+#phone-menu {
+    background-color: #FFFFFF;
+    transition: all 0.2s;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.closed {
+    display: none;
+    max-height: 0px;
+}
+
+.open {
+    display: flex;
+    position: absolute;
+    top: 5rem;
+    left: 0px;
+    max-height: 100vh;
+}
+
 .navlink {
+    color: #2e2f57;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
+    font-weight: 700;
     padding: 0.25rem 0.5rem;
     border: 1px solid grey;
     border-radius: 5px;
     box-shadow: 2px 2px 2px black;
 }
 
+.phone-link {
+    margin-top: 2rem;
+}
+
 @media only screen and (min-width: 768px) {
+    #nav-menu-button {
+        display: none;
+    }
+
     header {
         height: 6rem;
     }
@@ -34,8 +76,14 @@ header {
         flex-direction: row;
         justify-content: space-between;
     }
-    #navbar div {
+
+    #home-link {
+        height: 5rem;
+    }
+
+    #navmenu {
         margin-top: 0rem;
+        display: flex;
     }
 }
 

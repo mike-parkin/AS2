@@ -2,11 +2,6 @@
     max-width: 100%;
 }
 
-img {
-    width: 100%;
-    height: 100%;
-}
-
 .section-left,
 .section-right {
     width: 100%;
@@ -23,18 +18,20 @@ img {
     width: 60%;
     padding: 1rem;
     color: black;
-    background-color: green;
+    font-weight: 600;
+    background-color: #b8f5ee;
     border: 1px solid gray;
     box-shadow: 2px 2px 2px black;
     border-radius: 10px;
     text-align: center;
     margin: 1rem auto 1rem auto;
-    transition: all 0.2s;
+    transition: all 0.2s ease-in-out;
 }
 
 .link-button:hover {
-    background-color: red;
-    color: white;
+    background-color: transparent;
+    color: #76303E;
+    border-color: #76303E;
 }
 
 @media only screen and (min-width: 768px) {
