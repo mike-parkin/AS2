@@ -60,6 +60,11 @@ header {
     box-shadow: 2px 2px 2px black;
 }
 
+.navlink:hover {
+    background-color: #2e2f57;
+    color: white;
+}
+
 .phone-link {
     margin-top: 2rem;
 }
