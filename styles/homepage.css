@@ -30,8 +30,8 @@
 
 .link-button:hover {
     background-color: transparent;
-    color: #76303E;
-    border-color: #76303E;
+    color: #76303e;
+    border-color: #76303e;
 }
 
 @media only screen and (min-width: 768px) {
@@ -40,8 +40,8 @@
     }
     .section-left {
         width: 60%;
-    }   
+    }
     .section-right {
-        width: 40%
+        width: 40%;
     }
 }

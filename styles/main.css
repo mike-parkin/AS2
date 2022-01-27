@@ -5,7 +5,7 @@ html {
 body {
     color: black;
     background-color: #c6ecd9;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: "M PLUS Rounded 1c", sans-serif;
     font-weight: 400;
     margin: 0px;
 }
@@ -129,12 +129,12 @@ footer {
         height: 8rem;
         font-size: 1rem;
     }
-    
+
     .page-heading {
         max-width: 80%;
         font-size: 3rem;
     }
-    
+
     .page-intro {
         max-width: 75%;
     }

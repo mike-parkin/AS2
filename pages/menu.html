@@ -1,161 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Haukai Menu</title>
-    <link rel="stylesheet" type="text/css" href="../styles/main.css"/>
-    <link rel="stylesheet" type="text/css" href="../styles/header.css"/>
-    <link rel="stylesheet" type="text/css" href="../styles/menupage.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700&display=swap" rel="stylesheet">
-</head>
-<body>
-    <header>
-        <nav id="navbar" class="container">
-            <a id="home-link" href="../index.html">
-                <img src="../assets/images/logo.png"/>
-            </a>
-            <div id="navmenu">
-                <a class="navlink" href="./reservations.html">Reservations</a>
-                <a class="navlink" href="./menu.html">Menu</a>
-                <a class="navlink" href="./hours.html">Hours</a>
-                <a class="navlink" href="./contact.html">Contact</a>
-            </div>
-            <button id="nav-menu-button" class='navlink'>
-                Site Menu
-            </button>
-            <div id="phone-menu" class="closed">
-                <a class="navlink phone-link" href="./reservations.html">Reservations</a>
-                <a class="navlink phone-link" href="./menu.html">Menu</a>
-                <a class="navlink phone-link" href="./hours.html">Hours</a>
-                <a class="navlink phone-link" href="./contact.html">Contact</a>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <div class="container">
-            <div class="title-lockup">
-                <h1 class="page-heading">Menu</h1>
-                <p class="page-intro">Our menu below consists of tradtional Maori and Pākeha dishes.<br/><a class="underlined" href="../assets/pdf/menu.pdf" target="_blank" download="../assets/pdf/menu.pdf">Download Menu</a></p>
-            </div>
-            <div class="content-wrapper flex-container">
-                <div class="menu-text-contaier">
-                    <section class="menu-section">
-                        <h2>Starters</h2>
-                        <ul class="menu-list">
-                            <li>
-                                <h3 class="item-name">REWENA BREAD <span class="price">10</span></h3>
-                                <p class='description'>Traditional Māori bread.</p>
-                            </li>
-                            <li>
-                                <h3 class="item-name">PAUA FRITTER <span class="price">16</span></h3>
-                                <p class='description'>Finely diced pieces of paua, served with a side salad and horopito dressing.</p>
-                            </li>
-                            <li>
-                                <h3 class="item-name">RAW FISH <span class="price">20</span></h3>
-                                <p class='description'>Dried snapper fish marinated in coconut cream, served with tomatoes and spring onions.</p>
-                            </li>
-                            <li>
-                                <h3 class="item-name">POACHED SALMON <span class="price">22</span></h3>
-                                <p class='description'>Salmon poached in an orange and pistachio glaze, served with rewena bread.</p>
-                            </li>
-                            <li>
-                                <h3 class="item-name">SEAFOOD BASKET <span class="price">25</span></h3>
-                                <p class='description'>Crumbed mussels, salt and pepper squid, crumbed hoki bites and garlic prawns.</p>
-                            </li>
-                        </ul>
-                    </section>
-                    <section>
-                        <h2>Mains</h2>
-                        <ul class="menu-list">
-                            <li>
-                                <h3 class="item-name">FISH OF THE DAY <span class="price">25</span></h3>
-                                <p class="description">Beer battered fish and kumara fries, served with a side salad and homemade tartare.</p>
-                            </li>
-                            <li>
-                                <h3 class="item-name">MUSSELS AND SCALLOPS <span class="price">25</span></h3>
-                                <p class="description">Steamed mussel & scallop mousse, honey and soy broth.</p>
-                            </li>
-                            <li>
-                                <h3 class="item-name">SEAFOOD CHOWDER <span class="price">30</span></h3>
-                                <p class="description">Creamy chowder filled with terakihi, prawn, hoki, scallops and mussels, served with flatbread.</p>
-                            </li>
-                            <li>
-                                <h3 class="item-name">PORK BELLY <span class="price">30</span></h3>
-                                <p class="description">low cooked pork belly served on a bed of apple slaw with roasted kumara, and crispy noodle.</p>
-                            </li>
-                            <li>
-                                <h3 class="item-name">LAMB STEAK <span class="price">33</span></h3>
-                                <p class="description">New Zealand Lamb coated in a kawakawa crumb, served with Dijon mustard glazed carrots, roasted butternut squash and a mushroom Jus.</p>
-                            </li>
-                            <li>
-                                <h3 class="item-name">VENISON <span class="price">33</span></h3>
-                                <p class="description">Venison crusted with horopito, served with glazed plums, cabbage salad and red wine Jus.</p>
-                            </li>
-                        </ul>
-                    </section>
-                    <section>
-                        <h2>Desserts</h2>
-                        <ul class="menu-list">
-                            <li>
-                                <h3 class="item-name">KĀPITI ICE CREAM <span class="price">10</span></h3>
-                                <p class="description">Check for daily specials.</p>
-                            </li>
-                            <li>
-                                <h3 class="item-name">STEAM PUDDING <span class="price">12</span></h3>
-                                <p class="description">Golden syrup flavoured steam pudding, served with vanilla ice cream.</p>
-                            </li>
-                            <li>
-                                <h3 class="item-name">MINI PAVLOVA <span class="price">16</span></h3>
-                                <p class="description">Mini Pavlova served with kawakawa and lemon infused cream and fresh fruit.</p>
-                            </li>
-                            <li>
-                                <h3 class="item-name">BANOFFEE PIE <span class="price">16</span></h3>
-                                <p class="description">Toffee, fresh bananas and fresh cream.</p>
-                            </li>
-                        </ul>
-                    </section>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Haukai Menu</title>
+        <link rel="stylesheet" type="text/css" href="../styles/main.css" />
+        <link rel="stylesheet" type="text/css" href="../styles/header.css" />
+        <link rel="stylesheet" type="text/css" href="../styles/menupage.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <header>
+            <nav id="navbar" class="container">
+                <a id="home-link" href="../index.html">
+                    <img src="../assets/images/logo.png" />
+                </a>
+                <div id="navmenu">
+                    <a class="navlink" href="./reservations.html">Reservations</a>
+                    <a class="navlink" href="./menu.html">Menu</a>
+                    <a class="navlink" href="./hours.html">Hours</a>
+                    <a class="navlink" href="./contact.html">Contact</a>
                 </div>
-                <div class="menu-img-container">
-                    <div class="menu-img-wrapper">
-                        <img src="../assets/images/bread.png" alt="A picture of a loaf of Rawena bread."/>
-                        <caption>Rawena Bread</caption>
+                <button id="nav-menu-button" class="navlink">Site Menu</button>
+                <div id="phone-menu" class="closed">
+                    <a class="navlink phone-link" href="./reservations.html">Reservations</a>
+                    <a class="navlink phone-link" href="./menu.html">Menu</a>
+                    <a class="navlink phone-link" href="./hours.html">Hours</a>
+                    <a class="navlink phone-link" href="./contact.html">Contact</a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="container">
+                <div class="title-lockup">
+                    <h1 class="page-heading">Menu</h1>
+                    <p class="page-intro">
+                        Our menu below consists of tradtional Maori and Pākeha dishes.<br /><a
+                            class="underlined"
+                            href="../assets/pdf/menu.pdf"
+                            target="_blank"
+                            download="../assets/pdf/menu.pdf"
+                            >Download Menu</a
+                        >
+                    </p>
+                </div>
+                <div class="content-wrapper flex-container">
+                    <div class="menu-text-contaier">
+                        <section class="menu-section">
+                            <h2>Starters</h2>
+                            <ul class="menu-list">
+                                <li>
+                                    <h3 class="item-name">
+                                        REWENA BREAD <span class="price">10</span>
+                                    </h3>
+                                    <p class="description">Traditional Māori bread.</p>
+                                </li>
+                                <li>
+                                    <h3 class="item-name">
+                                        PAUA FRITTER <span class="price">16</span>
+                                    </h3>
+                                    <p class="description">
+                                        Finely diced pieces of paua, served with a side salad and
+                                        horopito dressing.
+                                    </p>
+                                </li>
+                                <li>
+                                    <h3 class="item-name">
+                                        RAW FISH <span class="price">20</span>
+                                    </h3>
+                                    <p class="description">
+                                        Dried snapper fish marinated in coconut cream, served with
+                                        tomatoes and spring onions.
+                                    </p>
+                                </li>
+                                <li>
+                                    <h3 class="item-name">
+                                        POACHED SALMON <span class="price">22</span>
+                                    </h3>
+                                    <p class="description">
+                                        Salmon poached in an orange and pistachio glaze, served with
+                                        rewena bread.
+                                    </p>
+                                </li>
+                                <li>
+                                    <h3 class="item-name">
+                                        SEAFOOD BASKET <span class="price">25</span>
+                                    </h3>
+                                    <p class="description">
+                                        Crumbed mussels, salt and pepper squid, crumbed hoki bites
+                                        and garlic prawns.
+                                    </p>
+                                </li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h2>Mains</h2>
+                            <ul class="menu-list">
+                                <li>
+                                    <h3 class="item-name">
+                                        FISH OF THE DAY <span class="price">25</span>
+                                    </h3>
+                                    <p class="description">
+                                        Beer battered fish and kumara fries, served with a side
+                                        salad and homemade tartare.
+                                    </p>
+                                </li>
+                                <li>
+                                    <h3 class="item-name">
+                                        MUSSELS AND SCALLOPS <span class="price">25</span>
+                                    </h3>
+                                    <p class="description">
+                                        Steamed mussel & scallop mousse, honey and soy broth.
+                                    </p>
+                                </li>
+                                <li>
+                                    <h3 class="item-name">
+                                        SEAFOOD CHOWDER <span class="price">30</span>
+                                    </h3>
+                                    <p class="description">
+                                        Creamy chowder filled with terakihi, prawn, hoki, scallops
+                                        and mussels, served with flatbread.
+                                    </p>
+                                </li>
+                                <li>
+                                    <h3 class="item-name">
+                                        PORK BELLY <span class="price">30</span>
+                                    </h3>
+                                    <p class="description">
+                                        low cooked pork belly served on a bed of apple slaw with
+                                        roasted kumara, and crispy noodle.
+                                    </p>
+                                </li>
+                                <li>
+                                    <h3 class="item-name">
+                                        LAMB STEAK <span class="price">33</span>
+                                    </h3>
+                                    <p class="description">
+                                        New Zealand Lamb coated in a kawakawa crumb, served with
+                                        Dijon mustard glazed carrots, roasted butternut squash and a
+                                        mushroom Jus.
+                                    </p>
+                                </li>
+                                <li>
+                                    <h3 class="item-name">VENISON <span class="price">33</span></h3>
+                                    <p class="description">
+                                        Venison crusted with horopito, served with glazed plums,
+                                        cabbage salad and red wine Jus.
+                                    </p>
+                                </li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h2>Desserts</h2>
+                            <ul class="menu-list">
+                                <li>
+                                    <h3 class="item-name">
+                                        KĀPITI ICE CREAM <span class="price">10</span>
+                                    </h3>
+                                    <p class="description">Check for daily specials.</p>
+                                </li>
+                                <li>
+                                    <h3 class="item-name">
+                                        STEAM PUDDING <span class="price">12</span>
+                                    </h3>
+                                    <p class="description">
+                                        Golden syrup flavoured steam pudding, served with vanilla
+                                        ice cream.
+                                    </p>
+                                </li>
+                                <li>
+                                    <h3 class="item-name">
+                                        MINI PAVLOVA <span class="price">16</span>
+                                    </h3>
+                                    <p class="description">
+                                        Mini Pavlova served with kawakawa and lemon infused cream
+                                        and fresh fruit.
+                                    </p>
+                                </li>
+                                <li>
+                                    <h3 class="item-name">
+                                        BANOFFEE PIE <span class="price">16</span>
+                                    </h3>
+                                    <p class="description">
+                                        Toffee, fresh bananas and fresh cream.
+                                    </p>
+                                </li>
+                            </ul>
+                        </section>
                     </div>
-                    <div class="menu-img-wrapper">
-                        <img src="../assets/images/mussels.png" alt="A picture of a bowl of mussels"/>
-                        <caption>Mussels</caption>
-                    </div>
-                    <div class="menu-img-wrapper">
-                        <img src="../assets/images/venison.png" alt="A picture of venison steak"/>
-                        <caption>Venison</caption>
-                    </div>
-                    <div class="menu-img-wrapper">
-                        <img src="../assets/images/pavlova.png" alt="A picture of our mini pavlova dish"/>
-                        <caption>Mini Pavlova</caption>
+                    <div class="menu-img-container">
+                        <div class="menu-img-wrapper">
+                            <img
+                                src="../assets/images/bread.png"
+                                alt="A picture of a loaf of Rawena bread."
+                            />
+                            <caption>
+                                Rawena Bread
+                            </caption>
+                        </div>
+                        <div class="menu-img-wrapper">
+                            <img
+                                src="../assets/images/mussels.png"
+                                alt="A picture of a bowl of mussels"
+                            />
+                            <caption>
+                                Mussels
+                            </caption>
+                        </div>
+                        <div class="menu-img-wrapper">
+                            <img
+                                src="../assets/images/venison.png"
+                                alt="A picture of venison steak"
+                            />
+                            <caption>
+                                Venison
+                            </caption>
+                        </div>
+                        <div class="menu-img-wrapper">
+                            <img
+                                src="../assets/images/pavlova.png"
+                                alt="A picture of our mini pavlova dish"
+                            />
+                            <caption>
+                                Mini Pavlova
+                            </caption>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </main>
-    <footer>
-        <div class="container flex-between">
-            <div>
-                The Haukai Restaurant<br/>
-                1 Island Street<br/>
-                Kerikeri, Bay of Islands<br/>
-                09 401 4019
-            </div>
-            <div>
-                <a class="underlined" href="./privacy.html">View privacy statement</a>
+        </main>
+        <footer>
+            <div class="container flex-between">
                 <div>
-                    all images used are under <a href="https://unsplash.com/license">Unsplash license</a>
+                    The Haukai Restaurant<br />
+                    1 Island Street<br />
+                    Kerikeri, Bay of Islands<br />
+                    09 401 4019
+                </div>
+                <div>
+                    <a class="underlined" href="./privacy.html">View privacy statement</a>
+                    <div>
+                        all images used are under
+                        <a href="https://unsplash.com/license">Unsplash license</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
-    <script src="../scripts/index.js"></script>
-</body>
+        </footer>
+        <script src="../scripts/index.js"></script>
+    </body>
 </html>

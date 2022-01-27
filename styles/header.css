@@ -1,5 +1,5 @@
 header {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     height: 5rem;
     border-bottom: 1px solid gray;
 }
@@ -28,7 +28,7 @@ header {
 }
 
 #phone-menu {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     transition: all 0.2s;
     padding: 1rem;
     flex-direction: column;
@@ -75,7 +75,6 @@ header {
     #phone-menu {
         display: none;
     }
-
 
     header {
         height: 6rem;
