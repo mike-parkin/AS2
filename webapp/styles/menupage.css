@@ -1,15 +1,5 @@
-.menu-text-container,
-.menu-img-container {
+.menu-text-container {
     max-width: 100%;
-}
-
-.menu-img-container {
-    margin-left: auto;
-}
-
-img {
-    width: 100%;
-    height: 100%;
 }
 
 .menu-section {
